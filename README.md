@@ -13,11 +13,11 @@ Here is a view of the Bill Split feature where one can add the number of friends
 ![MainScreen_Split](https://raw.githubusercontent.com/Alan94087/TipCalculator2/master/MainEntry_Splitter.png)
 
 A view of the main screen showing recalculation:
-![MainScreen_Recalculated](https://raw.githubusercontent.com/Alan94087/TipCalculator2/master/MainEntry_Recalculated.png)
+![MainScreen_Recalculated](https://raw.githubusercontent.com/Alan94087/TipCalculator2/master/Main_Recalculated.png)
 
 The Default number of friends, because none of you have a real life so you always hang out together,
 is configurable on the Setting screen (Note: the NSUserDefaults in the directions have been deprecated):
-![MainScreen_Settings](https://raw.githubusercontent.com/Alan94087/TipCalculator2/master/MainEntry_Settings.png)
+![MainScreen_Settings](https://raw.githubusercontent.com/Alan94087/TipCalculator2/master/Settings.png)
 
 The keyboard for the settings obviously doesn't allow decimal points.  Settings are persisted in UserDefaults,
 and a handler is setup for the main view so that if someone changes the default settings for the # of friends,
