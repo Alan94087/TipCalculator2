@@ -39,6 +39,9 @@ class ViewController: UIViewController {
         print("main view will appear")
         
         let defaults:UserDefaults = UserDefaults.standard
+        
+        tipControl.selectedSegmentIndex = defaults.integer(forKey: "TipCalc_tipPercentage")
+
         let defFriendCount = defaults.integer(forKey: "TipCalc_FriendCount")
         friendField.text = String(defFriendCount)
         print("Default Friend Count: " + String(defFriendCount))
