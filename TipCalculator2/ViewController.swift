@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var friendField: UITextField!
     @IBOutlet weak var friendSplitLabel: UILabel!
+    @IBOutlet weak var billLabel: UILabel!
     
     @IBOutlet weak var tipControl: UISegmentedControl!
     
@@ -52,7 +53,8 @@ class ViewController: UIViewController {
     @IBAction func calculateTip(_ sender: AnyObject) {
         
         let tipPercentages = [0.15, 0.18, 0.2]
-        let bill = Double(billField.text!) ?? 0
+        let bill = (Double(billField.text!) ?? 0) * 0.01
+        billLabel.text = String(format: "$%.2f", bill)
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
         let total = bill + tip
         
