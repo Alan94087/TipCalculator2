@@ -49,6 +49,9 @@
 		C658E62D1E6C7E42008A4EA8 /* TipCalculator2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator2UITests.swift; sourceTree = "<group>"; };
 		C658E62F1E6C7E42008A4EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C658E63B1E6C88D7008A4EA8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C6CF19BE1E6D44D400C2112F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		C6CF19BF1E6D44D400C2112F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C6CF19C11E6E960300C2112F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +307,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				C658E6121E6C7E42008A4EA8 /* Base */,
+				C6CF19BE1E6D44D400C2112F /* fr */,
+				C6CF19C11E6E960300C2112F /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +317,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C658E6171E6C7E42008A4EA8 /* Base */,
+				C6CF19BF1E6D44D400C2112F /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -372,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -507,6 +515,7 @@
 				C658E6341E6C7E42008A4EA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C658E6351E6C7E42008A4EA8 /* Build configuration list for PBXNativeTarget "TipCalculator2Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				C658E6371E6C7E42008A4EA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C658E6381E6C7E42008A4EA8 /* Build configuration list for PBXNativeTarget "TipCalculator2UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				C658E63A1E6C7E42008A4EA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
