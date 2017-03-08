@@ -3,7 +3,7 @@
 "20M-ex-Zrs.text" = "$0.00";
 
 /* Class = "UILabel"; text = "Bill Amount"; ObjectID = "3TF-QU-rJB"; */
-"3TF-QU-rJB.text" = "Bill Amount";
+"3TF-QU-rJB.text" = "Montant de la Facture";
 
 /* Class = "UILabel"; text = "$0.00"; ObjectID = "BHg-2O-UeE"; */
 "BHg-2O-UeE.text" = "$0.00";
@@ -27,22 +27,22 @@
 "GU2-Vk-MdI.segmentTitles[2]" = "20%";
 
 /* Class = "UILabel"; text = "Each Party Pays:"; ObjectID = "Ica-po-veM"; */
-"Ica-po-veM.text" = "Each Party Pays:";
+"Ica-po-veM.text" = "Chaque Partie Paie:";
 
 /* Class = "UILabel"; text = "Default Tip Amount:"; ObjectID = "Lfh-fQ-wV7"; */
-"Lfh-fQ-wV7.text" = "Default Tip Amount:";
+"Lfh-fQ-wV7.text" = "Montant de l'astuce par Défaut:";
 
 /* Class = "UILabel"; text = "Default Number of Friends:"; ObjectID = "UZV-zj-hH3"; */
-"UZV-zj-hH3.text" = "Default Number of Friends:";
+"UZV-zj-hH3.text" = "Nombre d'amis par Défaut:";
 
 /* Class = "UILabel"; text = "Tip Amount"; ObjectID = "Z5S-ha-Iap"; */
-"Z5S-ha-Iap.text" = "Tip Amount";
+"Z5S-ha-Iap.text" = "Montant du Pourboire";
 
 /* Class = "UILabel"; text = "Number of Friends:"; ObjectID = "ZNl-bV-qWI"; */
-"ZNl-bV-qWI.text" = "Number of Friends:";
+"ZNl-bV-qWI.text" = "Nombre d'aAmis:";
 
 /* Class = "UILabel"; text = "Friend Splitter"; ObjectID = "eXM-ib-4vh"; */
-"eXM-ib-4vh.text" = "Friend Splitter";
+"eXM-ib-4vh.text" = "Ami Splitter";
 
 /* Class = "UITextField"; text = "2"; ObjectID = "hir-Q1-maD"; */
 "hir-Q1-maD.text" = "2";
@@ -51,7 +51,7 @@
 "l9p-Uj-tOS.text" = "$0.00";
 
 /* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "rEE-Uw-lXZ"; */
-"rEE-Uw-lXZ.title" = "Settings";
+"rEE-Uw-lXZ.title" = "Paramètres";
 
 /* Class = "UILabel"; text = "Total"; ObjectID = "vay-b1-pS3"; */
 "vay-b1-pS3.text" = "Total";
