@@ -9,6 +9,11 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
+    // NOTE:
+    //    I noticed that I wasn't very consistent with my naming conventions.  Events should be consistently named,
+    //    and ditto for labels, fields, etc...  Because of XCode's 'helper' tools, I am not 100% sure how to rename
+    //    these though.  I need to look into that.  :-)
+    
     @IBOutlet weak var friendDefaultText: UITextField!
     @IBOutlet weak var tipControl: UISegmentedControl!
 
@@ -56,6 +61,19 @@ class SettingsViewController: UIViewController {
    
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true)
+    }
+    
+    @IBAction func onEnterDefaultFriendField(_ sender: Any) {
+        // ease entry by clearing out the field
+        friendDefaultText.text = ""
+    }
+    
+    @IBAction func onExitDefaultFriendField(_ sender: Any) {
+        // This could be done better.  The intent is to ensure that we have a non-zero number by defaulting
+        // the value to the default number of friends.  I suspect there is a better way to do this...
+        if (friendDefaultText.text == "0" || (friendDefaultText.text?.isEmpty)!) {
+            friendDefaultText.text = "2"
+        }
     }
     
 

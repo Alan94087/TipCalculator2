@@ -2,8 +2,8 @@
 /* Class = "UILabel"; text = "$0.00"; ObjectID = "20M-ex-Zrs"; */
 "20M-ex-Zrs.text" = "$0.00";
 
-/* Class = "UILabel"; text = "Bill Amount"; ObjectID = "3TF-QU-rJB"; */
-"3TF-QU-rJB.text" = "Bill Amount";
+/* Class = "UILabel"; text = "Bill Amount"; ObjectID = "3Gs-7r-nQo"; */
+"3Gs-7r-nQo.text" = "Bill Amount";
 
 /* Class = "UILabel"; text = "$0.00"; ObjectID = "BHg-2O-UeE"; */
 "BHg-2O-UeE.text" = "$0.00";
@@ -25,6 +25,9 @@
 
 /* Class = "UISegmentedControl"; GU2-Vk-MdI.segmentTitles[2] = "20%"; ObjectID = "GU2-Vk-MdI"; */
 "GU2-Vk-MdI.segmentTitles[2]" = "20%";
+
+/* Class = "UITextField"; text = "000"; ObjectID = "GlG-p1-N2O"; */
+"GlG-p1-N2O.text" = "000";
 
 /* Class = "UILabel"; text = "Each Party Pays:"; ObjectID = "Ica-po-veM"; */
 "Ica-po-veM.text" = "Each Party Pays:";
@@ -55,3 +58,9 @@
 
 /* Class = "UILabel"; text = "Total"; ObjectID = "vay-b1-pS3"; */
 "vay-b1-pS3.text" = "Total";
+
+/* Class = "UILabel"; text = "Bill Entry"; ObjectID = "z9S-1c-SUL"; */
+"z9S-1c-SUL.text" = "Bill Entry";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "zNc-wC-e2K"; */
+"zNc-wC-e2K.text" = "$0.00";

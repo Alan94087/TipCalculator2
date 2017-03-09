@@ -49,9 +49,9 @@
 		C658E62D1E6C7E42008A4EA8 /* TipCalculator2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator2UITests.swift; sourceTree = "<group>"; };
 		C658E62F1E6C7E42008A4EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C658E63B1E6C88D7008A4EA8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		C6CF19BE1E6D44D400C2112F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		C6CF19BF1E6D44D400C2112F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		C6CF19C11E6E960300C2112F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		C6CF19C51E7118E300C2112F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		C6CF19C71E71190D00C2112F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +220,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = C658E6011E6C7E42008A4EA8;
 			productRefGroup = C658E60B1E6C7E42008A4EA8 /* Products */;
@@ -307,8 +308,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				C658E6121E6C7E42008A4EA8 /* Base */,
-				C6CF19BE1E6D44D400C2112F /* fr */,
-				C6CF19C11E6E960300C2112F /* en */,
+				C6CF19C51E7118E300C2112F /* en */,
+				C6CF19C71E71190D00C2112F /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
