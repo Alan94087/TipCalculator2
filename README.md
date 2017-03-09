@@ -10,8 +10,12 @@ Time spent: 4-5 hours spent in total.  This included going through Swift review,
 thought.  My biggest problem was that I spent an inordinate amount of time, actually doing the app a second time, on two different
 problems.  First, the Settings button was not being displayed (because I had incorrectly assigend the wrong controller).  Second, I
 ran into issues with NSUserDefaults being deprecated.  There was some research in there that was required to figure out how
-UserDefaults works as the two are not identical.  Finally, I was not familiar with Git, LiceCap of the whole distribution process
-and that took a good amount of time.
+UserDefaults works as the two are not identical.  Finally, I was not familiar with Git, LiceCap or the whole distribution process
+and that took a good amount of time.  I also had some strange behavior wherein I was not able to submit my application through your
+dashboard.  Instead of the dashboard coming up, I kept getting redirected to the main page.  It took me awhile to realize that there
+must have been an errant cookie or something that was causing the problem.  I changed browsers and then it all worked fine.
+
+Anyhow, I added all of that into my time to complete...
 
 ## User Stories
 
@@ -27,14 +31,19 @@ The following **optional** features are implemented:
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
-* Added Friend splitter 
+* Added Friend splitter (add $0.01 to each bill to ensure the server is not penalized) 
 * Added a default to persist the number of friends with whom one typically splits the bill.
+* Added Localization from an iOS level (support for the Louisiana French, so USD still used)
+* Added support for a decimal-less entry field to speed entry.  
+* Clear out the total and the friend boxes when going into them to facilitate ease of entry
+* Added a background to the application.  Personally I find it a little cluttered so I decreased opacity; however, the main intent was to prove a point or make an 'improvement' to the app.
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-![Settings_Keyboard](https://raw.githubusercontent.com/Alan94087/TipCalculator2/master/Video.gif)
+(note: there is a slight delay as I was getting the HOME button to work correctly while recording)
+![Settings_Keyboard](http://imgur.com/SCzhdox)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
